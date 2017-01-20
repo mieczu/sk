@@ -1,0 +1,82 @@
+@media print {
+    @page
+    {
+        size:  auto;   /* auto is the initial value */
+        margin: 10mm;  /* this affects the margin in the printer settings */
+    }
+
+    .noprint{
+        display: none;
+    }
+
+    .print{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+html, body{
+    /*height: 100%;*/
+}
+
+body{
+    font-family: tahoma;
+    font-size: 10px;
+}
+
+thead td{
+    border-bottom: 1px solid #000000;
+    font-weight: bold;
+    padding: 3px;
+}
+
+td{
+    vertical-align: top;
+}
+
+.vb{
+    vertical-align: bottom;
+}
+
+.vc{
+    vertical-align: middle;
+}
+
+.f8{
+    font-size: 8px;
+}
+
+.bl{
+    display: block;
+}
+
+.bt{
+    border-top: 1px solid #000000;
+}
+
+.b{
+    font-weight: bold;
+}
+
+.l{
+    text-align: left;
+}
+
+.r{
+    text-align: right;
+}
+
+.c{
+    text-align: center;
+}
+
+td div.option{
+    float: left;
+    padding: 10px;
+    /*min-height: 36px;*/
+}
+
+.bor{
+    border: 1px solid #000000;
+}

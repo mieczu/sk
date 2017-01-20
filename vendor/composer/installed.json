@@ -1,0 +1,300 @@
+[
+    {
+        "name": "gusapi/gusapi",
+        "version": "3.0.x-dev",
+        "version_normalized": "3.0.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/johnzuk/GusApi.git",
+            "reference": "2f409bbbc27991203249da280f6b0cc95e6c6aeb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/johnzuk/GusApi/zipball/2f409bbbc27991203249da280f6b0cc95e6c6aeb",
+            "reference": "2f409bbbc27991203249da280f6b0cc95e6c6aeb",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.6.6"
+        },
+        "time": "2015-09-29 19:01:20",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GusApi\\": "src/GusApi/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Janusz Żukowicz",
+                "email": "john_zuk@wp.pl"
+            }
+        ],
+        "description": "Gus Api Library for PHP",
+        "keywords": [
+            "CEGID",
+            "GUS",
+            "api",
+            "krs",
+            "library",
+            "nip",
+            "regon",
+            "soap"
+        ]
+    },
+    {
+        "name": "tecnickcom/tcpdf",
+        "version": "6.2.12",
+        "version_normalized": "6.2.12.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tecnickcom/TCPDF.git",
+            "reference": "2f732eaa91b5665274689b1d40b285a7bacdc37f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/2f732eaa91b5665274689b1d40b285a7bacdc37f",
+            "reference": "2f732eaa91b5665274689b1d40b285a7bacdc37f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-09-12 10:08:34",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "fonts",
+                "config",
+                "include",
+                "tcpdf.php",
+                "tcpdf_parser.php",
+                "tcpdf_import.php",
+                "tcpdf_barcodes_1d.php",
+                "tcpdf_barcodes_2d.php",
+                "include/tcpdf_colors.php",
+                "include/tcpdf_filters.php",
+                "include/tcpdf_font_data.php",
+                "include/tcpdf_fonts.php",
+                "include/tcpdf_images.php",
+                "include/tcpdf_static.php",
+                "include/barcodes/datamatrix.php",
+                "include/barcodes/pdf417.php",
+                "include/barcodes/qrcode.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPLv3"
+        ],
+        "authors": [
+            {
+                "name": "Nicola Asuni",
+                "email": "info@tecnick.com",
+                "homepage": "http://nicolaasuni.tecnick.com"
+            }
+        ],
+        "description": "TCPDF is a PHP class for generating PDF documents and barcodes.",
+        "homepage": "http://www.tcpdf.org/",
+        "keywords": [
+            "PDFD32000-2008",
+            "TCPDF",
+            "barcodes",
+            "datamatrix",
+            "pdf",
+            "pdf417",
+            "qrcode"
+        ]
+    },
+    {
+        "name": "spipu/html2pdf",
+        "version": "v4.5.0",
+        "version_normalized": "4.5.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/spipu/html2pdf.git",
+            "reference": "d254c2a36e87f13ab9c93de221865615b8d09997"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/spipu/html2pdf/zipball/d254c2a36e87f13ab9c93de221865615b8d09997",
+            "reference": "d254c2a36e87f13ab9c93de221865615b8d09997",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2",
+            "tecnickcom/tcpdf": "~6.2.0"
+        },
+        "suggest": {
+            "ext-gd": "Allows to embed images into the PDF",
+            "fagundes/zff-html2pdf": "zff-html2pdf module ~0.1.1, if you need to integrate HTML2PDF with Zend Framework 2 (zf2)"
+        },
+        "time": "2015-12-18 18:57:52",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "html2pdf.class.php",
+                "_class/exception.class.php",
+                "_class/locale.class.php",
+                "_class/myPdf.class.php",
+                "_class/parsingHtml.class.php",
+                "_class/parsingCss.class.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Spipu",
+                "homepage": "https://github.com/spipu",
+                "role": "Developer"
+            }
+        ],
+        "description": "HTML2PDF is a HTML to PDF converter written in PHP5 (it uses TCPDF). OFFICIAL PACKAGE",
+        "homepage": "http://html2pdf.fr/",
+        "keywords": [
+            "html",
+            "html2pdf",
+            "pdf"
+        ]
+    },
+    {
+        "name": "mikehaertl/php-shellcommand",
+        "version": "1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mikehaertl/php-shellcommand.git",
+            "reference": "c7bbaf2e01a6d6dbf39d54dd077a8f9061a845c2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mikehaertl/php-shellcommand/zipball/c7bbaf2e01a6d6dbf39d54dd077a8f9061a845c2",
+            "reference": "c7bbaf2e01a6d6dbf39d54dd077a8f9061a845c2",
+            "shasum": ""
+        },
+        "time": "2015-09-22 18:26:51",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "mikehaertl\\shellcommand\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Härtl",
+                "email": "haertl.mike@gmail.com"
+            }
+        ],
+        "description": "An object oriented interface to shell commands",
+        "keywords": [
+            "shell"
+        ]
+    },
+    {
+        "name": "mikehaertl/php-tmpfile",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mikehaertl/php-tmpfile.git",
+            "reference": "e34d43fa546d09f434b59ea8c05d4e4d55d55687"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mikehaertl/php-tmpfile/zipball/e34d43fa546d09f434b59ea8c05d4e4d55d55687",
+            "reference": "e34d43fa546d09f434b59ea8c05d4e4d55d55687",
+            "shasum": ""
+        },
+        "time": "2014-07-09 11:08:51",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "mikehaertl\\tmp\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Haertl",
+                "email": "haertl.mike@gmail.com"
+            }
+        ],
+        "description": "A convenience class for temporary files",
+        "keywords": [
+            "files"
+        ]
+    },
+    {
+        "name": "mikehaertl/phpwkhtmltopdf",
+        "version": "2.1.1",
+        "version_normalized": "2.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mikehaertl/phpwkhtmltopdf.git",
+            "reference": "bb578247c6a92c172eb2c9d017f2c4ff3ea96ed0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mikehaertl/phpwkhtmltopdf/zipball/bb578247c6a92c172eb2c9d017f2c4ff3ea96ed0",
+            "reference": "bb578247c6a92c172eb2c9d017f2c4ff3ea96ed0",
+            "shasum": ""
+        },
+        "require": {
+            "mikehaertl/php-shellcommand": "^1.0.2",
+            "mikehaertl/php-tmpfile": "^1.0.0",
+            "php": ">=5.0.0"
+        },
+        "time": "2015-10-21 11:16:53",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "mikehaertl\\wkhtmlto\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Haertl",
+                "email": "haertl.mike@gmail.com"
+            }
+        ],
+        "description": "A slim PHP wrapper around wkhtmltopdf with an easy to use and clean OOP interface",
+        "homepage": "http://mikehaertl.github.com/phpwkhtmltopdf/",
+        "keywords": [
+            "pdf",
+            "wkhtmltoimage",
+            "wkhtmltopdf"
+        ]
+    }
+]
